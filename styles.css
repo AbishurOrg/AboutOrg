@@ -175,8 +175,12 @@ section {
   padding: 5rem 1.5rem;
 }
 
-.about, .focus, .contact {
+.projects, .about, .contact {
   border-top: 1px solid var(--border);
+}
+
+.section-intro {
+  margin-top: -0.5rem;
 }
 
 .card-grid {
@@ -201,6 +205,48 @@ section {
 
 .card h3 {
   color: var(--accent-alt);
+  margin-top: 0.75rem;
+}
+
+.status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.status-progress {
+  background: rgba(91, 140, 255, 0.15);
+  color: var(--accent);
+}
+
+.status-planned {
+  background: rgba(154, 163, 178, 0.15);
+  color: var(--text-muted);
+}
+
+.status-done {
+  background: rgba(125, 211, 252, 0.15);
+  color: var(--accent-alt);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
 }
 
 .contact {
