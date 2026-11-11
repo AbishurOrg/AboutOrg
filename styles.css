@@ -4,8 +4,8 @@
   --surface: #171c2b;
   --text: #e6e9f0;
   --text-muted: #9aa3b2;
-  --accent: #5b8cff;
-  --accent-alt: #7dd3fc;
+  --accent: #2563eb;
+  --accent-alt: #3b82f6;
   --border: #242a3a;
   --radius: 12px;
   --max-width: 1100px;
@@ -159,7 +159,7 @@ a {
 
 .btn-primary {
   background: var(--accent);
-  color: #0b0e14;
+  color: #fff;
 }
 
 .btn-secondary {
@@ -219,7 +219,7 @@ section {
 }
 
 .status-progress {
-  background: rgba(91, 140, 255, 0.15);
+  background: rgba(37, 99, 235, 0.15);
   color: var(--accent);
 }
 
@@ -229,7 +229,7 @@ section {
 }
 
 .status-done {
-  background: rgba(125, 211, 252, 0.15);
+  background: rgba(59, 130, 246, 0.15);
   color: var(--accent-alt);
 }
 
